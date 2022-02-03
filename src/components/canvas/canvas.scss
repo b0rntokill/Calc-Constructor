@@ -1,0 +1,9 @@
+@import "src/scss/variables";
+
+.canvas {
+  position: relative;
+  width: 695px;
+  margin: 80px auto;
+  padding: 39px 80px 54px 76px;
+  background-color: $white;
+}

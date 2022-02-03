@@ -1,0 +1,22 @@
+.layout {
+    display: flex;
+    margin: 4px;
+    min-height: 48px;
+
+    &.small {
+        width: 52px;
+    }
+
+    &.medium {
+        width: 72px;
+    }
+    
+    &.medium-grow {
+        width: 152px;
+    }
+
+    &.large {
+        width: 100%;
+        min-height: 64px;
+    }
+}
